@@ -15,10 +15,10 @@ Contributing
 If you want to contribute to manadu, please choose an issue and comment on it if anything is unclear. If you find bugs you want to fix yourself, please also open an issue describing the fix. Once done, create a pull request for review.
 
 
-License
--------
+Copyright and License
+---------------------
 
-manadu is licensed under the **MIT License**.
+Code copyright 2019 Rajkumar Rajendran. Code is licensed under the `MIT License <https://github.com/rignova/manadu/blob/master/LICENSE>`_.
 
 Maintainer
 ----------
