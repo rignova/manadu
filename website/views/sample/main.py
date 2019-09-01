@@ -1,5 +1,6 @@
-from django.http import HttpResponse
+from django.shortcuts import render
 
 
 def web_home(request):
-    return HttpResponse('Hello Manadu!')
+    template = 'sample/index.html'
+    return render(request, template)
