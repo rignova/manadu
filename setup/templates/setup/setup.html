@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Conference Setup</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+</head>
+<body>
+<div class="container" style="padding:1em;">
+    <br>
+    <div class="title">Manadu Setup</div>
+    <hr>
+    <div class="content">
+        <form action="" method="post" style="max-width: 400px;">
+            <div class="field">
+                <label for="con_name" class="label">Conference Name:</label>
+                <input type="text" class="input" id="con_name" name="con_name" autofocus required>
+                <div class="help is-info">Maximum of 50 characters</div>
+            </div>
+            <div class="field">
+                <label for="admin_email" class="label">Administrator's Email address:</label>
+                <input type="email" class="input" id="admin_email" name="admin_email" required>
+                <div class="help is-info">A valid email address. This user will be the Superuser for this Conference.
+                </div>
+            </div>
+            <hr>
+            <div class="field">
+                <button class="button is-link">CREATE CONFERENCE</button>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>
