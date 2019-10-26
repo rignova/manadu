@@ -13,7 +13,7 @@ The project is under active development and is currently **NOT** suitable for pr
 
 Documentation
 -------------
-Coming soon...
+`https://rignova.github.io/manadu/ <https://rignova.github.io/manadu/>`_
 
 
 Copyright and License
