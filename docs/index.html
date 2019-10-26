@@ -1,1 +1,78 @@
-Hello
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>manadu | Documentation</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <link rel="stylesheet"
+          href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+</head>
+<body>
+<section class="section">
+    <div class="container">
+        <h1 class="title">
+            Welcome to manadu documentation
+        </h1>
+        <p class="subtitle">
+            # A web based conference management tool
+        </p>
+        <p class="notification has-background-warning has-text-black">
+            This is project is incomplete and NOT suitable for production.
+        </p>
+    </div>
+</section>
+
+<div class="container">
+    <div class="container">
+        <div class="title">Prerequisite</div>
+        <div class="subtitle"># Linux/Mac/Windows</div>
+
+        1. Python 3.7.x <br>
+        2. PostgreSQL 11.x <br>
+
+        <hr>
+
+        <div class="title">Installation</div>
+        <div class="subtitle"># On local machine for testing</div>
+        1. Download the code from <a
+            href="https://github.com/rignova/manadu">https://github.com/rignova/manadu</a>
+        <br>
+        2. Create a virtual environment (using <strong>Python 3.7.x</strong>) and install packages listed in
+        <code class="plaintext">manadu/requirements.txt</code>
+        <br>
+        3. Create a database in <strong>PostgreSQL 11.x</strong>
+        <br>
+        4. Create a <code class="plaintext">.env</code> file in <code class="plaintext">manadu/manadu/</code> directory with following details
+        <br> <br>
+        <pre>
+            <code class="python">
+            SECRET_KEY=''
+            DEBUG='False'
+
+            DB_ENGINE='django.db.backends.postgresql'
+            DB_NAME=''
+            DB_USER=''
+            DB_PASSWORD=''
+            DB_HOST='127.0.0.1'
+            DB_PORT='5432'
+            </code>
+        </pre>
+        <br>
+        5. Activate the virtual Python
+        <br>
+        6. Run <code class="Bash">python manage.py migrate</code>
+        <br>
+        7. Run <code>python manage.py runserver</code>
+        <br>
+        8. Open <code class="plaintext">localhost:8000/setup/</code> in your browser
+        <br>
+        9. Enter the details in Setup form and <strong>CREATE CONFERENCE</strong>
+        <hr>
+    </div>
+</div>
+</body>
+</html>
