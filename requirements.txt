@@ -1,4 +1,4 @@
-django==2.2.7
+django==2.2.8
 pytz==2019.2
 pillow==6.2.1
 python-dotenv==0.10.3
